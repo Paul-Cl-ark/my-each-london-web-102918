@@ -1,9 +1,9 @@
 def my_each(words)
-  counter = 0
+  i = 0
   while
     counter < words.length
-  yield counter[i]
-    counter += 1
+  yield words[i]
+    i += 1
   end
   words
 end
