@@ -3,7 +3,7 @@ def my_each(words)
   while
     counter < words.length
     do |i| 
-  end
+    end
     yield words[i]
     counter += 1
   end
